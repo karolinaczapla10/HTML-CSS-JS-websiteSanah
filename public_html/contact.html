@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Trasa koncertowa Sanah</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+       <script src="js/form.js"></script>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Trasa koncertowa Sanah</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Informacje</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Ranking</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Kup bilet</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="geo.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+         <header class="masthead" style="background-image: url('assets/Zdjecia/Przechwytywanie.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h2>Wszystko o Sanah</h2>
+                            <span class="subheading">Poznajcie moje melodie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Formularz kupienia biletu na koncert Sanah</p>
+                        <div class="my-5">
+                                <div class="form-floating">
+                                    <input class="form-control" id="imie" type="text" placeholder="" value=""/>
+                                    <label for="imie">Imię</label>
+                                    <span id="imie_error" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="form-floating">
+                                    <input class="form-control" id="nazwisko" type="text" placeholder="" value=""/>
+                                    <label for="nazwisko">Nazwisko</label>
+                                    <span id="nazwisko_error" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="form-floating">
+                                    <input class="form-control" id="wiek" type="number" placeholder="" min="15" max="90"/>
+                                    <label for="wiek">Wiek</label>
+                                    <span id="wiek_error" class="text-danger"></span>
+                                </div>     
+                                
+                                <div class="form-floating">
+                                    <input class="form-control" id="email" type="email" placeholder=""/>
+                                    <label for="email">Email</label>
+                                    <span id="email_error" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="form-floating">
+                                    <input class="form-control" id="telefon" type="tel" placeholder="" />
+                                    <label for="telefon">Numer telefonu</label>
+                                    <span id="telefon_error" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="form-floating">
+                                    <input class="form-control" id="bilety" type="number" placeholder="" min="1" max="90"/>
+                                    <label for="bilety">Ilość biletów</label>
+                                    <span id="bilety_error" class="text-danger"></span>
+                                </div>
+                                
+                                 <div class="form-floating">
+                                     <p><label for="miejsce" class="form-check">Data i miejsce wydarzenia</label></p>
+                                 <select class="form-select" aria-label="Default select example" id="miejsce">
+                                    <option value="30.04 – Gdańsk, ERGO ARENA." selected>30.04 – Gdańsk, ERGO ARENA.</option>
+                                    <option value="2.05 – Poznań, MTP, Pawilon 5">2.05 – Poznań, MTP, Pawilon 5</option>
+                                    <option value="7.05 – Tarnów, Arena Jaskółka">7.05 – Tarnów, Arena Jaskółka.</option>
+                                    <option value="14.05 – Gliwice, Arena Gliwice">14.05 – Gliwice, Arena Gliwice.</option>
+                                    <option value="15.05 – Lublin, Hala Globus">15.05 – Lublin, Hala Globus.</option><!-- comment -->
+                                    <option value="22.05 – Toruń, Arena Toruń">22.05 – Toruń, Arena Toruń.</option><!-- comment -->
+                                    <option value="25.05 – Łódź, ATLAS Arena">25.05 – Łódź, ATLAS Arena.</option>    
+                                    <option value="6.05 – Kraków, TAURON Arena Kraków">26.05 – Kraków, TAURON Arena Kraków</option><!-- comment -->
+                                </select>
+                                </div>                         
+                                
+                                <div class="form-floating">
+                                    <p><label for="zaplata" class="form-radio">Płatność</label></p>
+                                    <p><input name="zaplata" id="zaplata" type="radio" value="eurocard" />eurocard</p>
+                                    <p><input name="zaplata" id="zaplata1" type="radio" value= "visa" />visa</p>
+                                    <p><input name="zaplata" id="zaplata2" type="radio" value= "przelew" />przelew bankowy</p>
+                                    <p><span id="zaplata_error" class="czerwone"></span><br /></p>
+                                </div>
+                            
+                                <div class="form-floating">
+                                    <p><label for="rodzaj" class="form-checked">Rodzaj biletu</label></p>
+                                    
+                                   <p><input type="checkbox" name="rodzaj" id="rodzaj" value="papierowy">
+                                   <label for="rodzaj">papierowy</label></p>
+                                    
+                                    <p><input type="checkbox" name="rodzaj" id="rodzaj2" value="elektroniczny">
+                                    <label for="rodzaj">elektorniczny</label></p>
+                                    
+                                    <p><input type="checkbox" name="rodzaj" id="rodzaj3" value="kolekcjonerski">
+                                    <label for="rodzaj">kolekcjonerski</label> </p>
+                                    <p><span id="rodzaj_error" class="czerwone"></span><br /></p>
+                                </div>
+
+                                
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="komentarz" placeholder="Wiadomość..." style="height: 12rem" data-sb-validations="required"></textarea>
+                                    <label for="komentarz">Komentarz</label>
+                                </div>
+
+                              <p>
+                                <button onclick="zapisz()">Zapisz</button>
+                                <button onclick="pokaz()">Wyświetl</button>
+                                <button onclick="wyczysc()">Usuń</button>
+                             </p>
+                           <div id="cart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                         <div class="small text-center text-muted fst-italic">&copy; Czapla Karolina</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
